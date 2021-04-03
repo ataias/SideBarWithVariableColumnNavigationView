@@ -51,6 +51,7 @@ struct ContentView: View {
     }
 
     // FIXME how to have a variable hierarchy? check comments below
+    // Reference: body01
 //    // This case shows two levels of hierarchy even when we don't want it
 //    var body: some View {
 //        NavigationView {
@@ -63,6 +64,7 @@ struct ContentView: View {
 //    }
 
     // This case only shows one level, not allowing you to go all down item2 hierarchy
+    // Reference: body02
     var body: some View {
         NavigationView {
             sideBar
@@ -77,7 +79,6 @@ struct ContentView: View {
                 Text("Select something")
                     .foregroundColor(.secondary)
             }
-
         }
     }
 
