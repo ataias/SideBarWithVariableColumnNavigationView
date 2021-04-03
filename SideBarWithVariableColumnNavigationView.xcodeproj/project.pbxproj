@@ -11,6 +11,7 @@
 		42A71BF72618E1EC00F810A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A71BF62618E1EC00F810A1 /* ContentView.swift */; };
 		42A71BF92618E1ED00F810A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A71BF82618E1ED00F810A1 /* Assets.xcassets */; };
 		42A71BFC2618E1ED00F810A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A71BFB2618E1ED00F810A1 /* Preview Assets.xcassets */; };
+		42A71C062618E29500F810A1 /* PickSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A71C052618E29500F810A1 /* PickSomethingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		42A71BFB2618E1ED00F810A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		42A71BFD2618E1ED00F810A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42A71BFE2618E1ED00F810A1 /* SideBarWithVariableColumnNavigationView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SideBarWithVariableColumnNavigationView.entitlements; sourceTree = "<group>"; };
+		42A71C052618E29500F810A1 /* PickSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickSomethingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				42A71BF42618E1EC00F810A1 /* SideBarWithVariableColumnNavigationViewApp.swift */,
 				42A71BF62618E1EC00F810A1 /* ContentView.swift */,
+				42A71C052618E29500F810A1 /* PickSomethingView.swift */,
 				42A71BF82618E1ED00F810A1 /* Assets.xcassets */,
 				42A71BFD2618E1ED00F810A1 /* Info.plist */,
 				42A71BFE2618E1ED00F810A1 /* SideBarWithVariableColumnNavigationView.entitlements */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42A71C062618E29500F810A1 /* PickSomethingView.swift in Sources */,
 				42A71BF72618E1EC00F810A1 /* ContentView.swift in Sources */,
 				42A71BF52618E1EC00F810A1 /* SideBarWithVariableColumnNavigationViewApp.swift in Sources */,
 			);
